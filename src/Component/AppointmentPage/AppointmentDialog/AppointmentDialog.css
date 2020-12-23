@@ -1,0 +1,22 @@
+#form-dialog-title {
+    text-align: center;
+    color: #16d2b7;
+}
+.appointment_textField {
+    margin-bottom: 20px !important;
+}
+.appointment_textFiled_cancel_btn, .appointment_textFiled_send_btn {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 3px;
+}
+.appointment_textFiled_cancel_btn {
+    background: #c70404;
+    color: white;
+}
+.appointment_textFiled_send_btn {
+    background-image: linear-gradient(to right, #18d3af, #0fcfcb);
+    color: white;
+}

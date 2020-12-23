@@ -1,0 +1,30 @@
+.appointment_date_picker {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 4px solid #16d2b7;
+}
+.react-calendar__tile--now {
+    background: linear-gradient(to right, #18d2ae, #0fcfeb);
+    color: white;
+}
+.react-calendar__tile {
+    border-radius: 5px;
+}
+div.available_appointments_main_container {
+    margin-top: 150px;
+    text-align: center;
+}
+div.appointmentPage_categories {
+    margin-top: 30px;
+    padding: 50px 20px;
+    box-shadow: 0px 1px 7px 0px #bdbcbc;
+    border-radius: 5px;
+}
+.main_title_appointmentPage {
+    color: #16d2b7;
+}
+abbr[title] {
+    text-decoration: none;
+    color: black;
+}

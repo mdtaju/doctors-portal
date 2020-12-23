@@ -1,0 +1,43 @@
+section.homeAppointment_main_container {
+    margin-top: 200px;
+    width: 100% !important;
+}
+div.homeAppointment_main_aria {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../Resources//images/Mask\ Group\ 4.png');
+    height: 400px;
+    width: 100% !important;
+    background-size: cover;
+    position: relative;
+}
+@media(max-width: 768px){
+    div.homeAppointment_main_aria {
+        display: grid;
+        place-items: center;
+    }
+}
+div.homeAppointment_row {
+    margin: 0;
+}
+div.homeAppointment_image_aria img {
+    position: absolute;
+    top: -150px;
+}
+div.homeAppointment_image_aria {
+    width: 310px;
+    margin: 0px auto;
+}
+div.homeAppointment_text_aria {
+    padding: 50px 0px;
+    color: white;
+}
+div.homeAppointment_text_aria h5 {
+    color: #18d3af;
+}
+@media(max-width: 768px){
+    div.homeAppointment_image_aria {
+        display: none;
+    }
+    div.homeAppointment_text_aria {
+        padding: 20px;
+    }
+}

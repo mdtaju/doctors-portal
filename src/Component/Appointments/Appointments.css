@@ -1,0 +1,10 @@
+div.appointments_date_picker {
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 7px 0px #bdbcbc;
+}
+div.appointments_table_main_section {
+    margin: 30px 0px;
+}

@@ -1,0 +1,24 @@
+div.homeDoctor_main_aria {
+    margin-top: 200px;
+    text-align: center;
+}
+h5.home_doctors_title {
+    margin-bottom: 50px;
+}
+div.HomeDoctor_categories {
+    margin-top: 50px;
+}
+div.homeDoctors_categories_img {
+    width: 250px;
+    height: 250px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+div.homeDoctors_categories_img img {
+    height: 100%;
+}
+@media(max-width: 768px){
+    div.HomeDoctor_categories_center {
+        margin: 0px auto;
+    }
+}

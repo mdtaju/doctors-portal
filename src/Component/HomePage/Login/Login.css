@@ -1,0 +1,11 @@
+.login_or {
+    margin: 20px 0px !important;
+    text-align: center;
+}
+p.forgotPassword {
+    color: #18d3b1;
+    width: max-content;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}

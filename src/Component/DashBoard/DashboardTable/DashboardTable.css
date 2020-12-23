@@ -1,0 +1,25 @@
+button.dashboard_view_btn {
+    border: none;
+    padding: 9px 25px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #18d2ae, #0fcfeb) !important;
+    color: white;
+    outline: none;
+}
+button.dashboard_pending_btn {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #76c5ff;
+    color: white;
+}
+button.dashboard_creatIcon_btn {
+    border: none;
+    outline: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background: #ffd076;
+    color: white;
+}

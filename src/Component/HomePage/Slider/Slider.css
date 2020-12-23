@@ -1,0 +1,157 @@
+div.slider_main_container {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../Resources/images/Mask\ Group\ 1.png');
+    background-size: cover;
+    color: white;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.navbar {
+    padding: 1.5rem 1rem;
+}
+.nav-item {
+    margin: 0px 10px;
+}
+.nav-link {
+    color: white !important;
+}
+
+p.paragraph_gray {
+    color: gray;
+    margin: 30px 0px;
+}
+
+button.appointment_btn {
+    padding: 15px;
+    border: none;
+    background: linear-gradient(to right, #18d3af, #0fcfcb);
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+div.slider_image_section {
+    margin: 50px 0px;
+}
+div.slider_image img {
+    width: 100%;
+}
+div.slider_categories_section {
+    transform: translateY(50%);
+}
+div.slider_categories_1, div.slider_categories_2, div.slider_categories_3 {
+    padding: 20px 30px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+div.slider_categories_1, div.slider_categories_3 {
+    background: #0fcfcb;
+    color: white;
+}
+div.slider_categories_2 {
+    background: #3a4256;
+    color: white;
+}
+@media(max-width: 768px){
+    div.slider_categories_2 {
+        background: #0fcfcb;
+        color: white;
+    }
+    div.slider_categories_3 {
+        background: #3a4256;
+        color: white;
+    }
+    div.slider_categories_3_center {
+        margin: 0px auto;
+    }
+}
+@media(max-width: 425px) {
+    div.slider_categories_1, div.slider_categories_3 {
+        background: #0fcfcb;
+        color: white;
+    }
+    div.slider_categories_2 {
+        background: #3a4256;
+        color: white;
+    }
+}
+.slider_icon {
+    font-size: 70px !important;
+    margin-right: 20px;
+}
+
+p.slider_categories_p {
+    margin: 16px 0px 0px 0px;
+    color: #f1e9e9;
+}
+a.navbar_active_class {
+    border-bottom: 2px solid #0fcfcb;
+}
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #0fcfcb;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before {
+    left: 0;
+    right: 0;
+  }
+  button.slider_login_btn {
+      border: 1px solid #0fcfcb;
+      background: transparent;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 2px;
+      outline: none;
+  }
+  button.slider_login_btn:hover {
+      background: #0fcfcb;
+  }
+  button.slider_signup_btn {
+      background: #0fcfcb;
+      border: none;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 3px;
+      outline: none;
+  }
+  button.slider_signup_btn:hover {
+      background: #18d3af;
+  }
+  .nav_link_signup {
+      margin-left: 0;
+  }
+  .nav_link_login {
+      margin-right: 0;
+      padding-right: 0 !important;
+  }
+  .nav_item_hide {
+      display: none;
+  }
+  @media(max-width: 768px) {
+      .nav_item_hide {
+          display: block;
+      }
+      .nav_link_login, .nav_link_signup {
+          display: none;
+      }
+  }

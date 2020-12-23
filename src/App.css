@@ -1,3 +1,6 @@
+:root {
+  --Gradient: linear-gradient(to right, #18d2ae, #0fcfeb)
+}
 .App {
   text-align: center;
 }
@@ -27,6 +30,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {

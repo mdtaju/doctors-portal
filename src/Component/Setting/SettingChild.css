@@ -1,0 +1,86 @@
+div.user_image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0px auto;
+}
+div.user_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+input[type='file']{
+  display: none;
+}
+label.label_user_image, button.setting_image_confirm {
+  background-image: linear-gradient(to right, #18d2ae, #0fcfeb);
+  color: white;
+  font-weight: 500;
+  padding: 5px 10px;
+  margin-top: 20px;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.setting_image_confirm {
+  margin-left: 15px;
+  padding: 6px 15px;
+  border: none;
+}
+div.setting_user_image_progress {
+  max-width: fit-content;
+  margin: 0px auto;
+  margin-top: 10px;
+}
+div.image_progress {
+  max-width: fit-content;
+  margin: 0px auto;
+}
+div.image_input_main_aria {
+  max-width: fit-content;
+  margin: 0px auto;
+}
+div.setting_input_main_aria {
+  display: flex;
+  border-bottom: 2px solid gray;
+  margin: 30px 0px;
+  padding: 15px 0px;
+  align-items: flex-end;
+}
+div.setting_input_main_aria p {
+  padding: 10px 10px 0px 10px;
+  color: gray;
+  font-weight: 500;
+  margin: 0;
+}
+div.setting_input {
+  display: grid;
+}
+input.setting_user_info_input {
+  width: 300px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid gray;
+}
+input.setting_update_btn {
+  background-image: linear-gradient(to right, #18d2ae, #0fcfeb);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+@media(max-width: 768px) {
+  div.setting_input_main_aria {
+    display: block;
+    border-bottom: 1px solid gray;
+    margin: 30px 0px;
+    padding: 10px 0px;
+  }
+  div.setting_input_main_aria p {
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+  }
+}

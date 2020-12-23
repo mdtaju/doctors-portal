@@ -1,0 +1,44 @@
+section.homeContact_main_container {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0.8)), url('../../../Resources//images//Mask\ Group\ 4.png');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 200px;
+}
+form.homeContact_form_container {
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+input.homeContact_input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+textarea.homeContact_input_message {
+    width: 100%;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+input.form_submit {
+    padding: 10px 100px;
+    border: none;
+    background: linear-gradient(to right, #18d3af, #0fcfcb);
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+}
+@media(max-width: 768px){
+    input.form_submit {
+        width: 100%;
+    }
+}
+@media(max-width: 425px) {
+    form.homeContact_form_container {
+        width: 100%;
+    }
+}

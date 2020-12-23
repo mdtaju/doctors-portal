@@ -1,0 +1,29 @@
+div.services_main_area {
+    margin-top: 150px;
+    text-align: center;
+}
+h5.services_main_area_title {
+    color: #18d3af;
+    font-weight: 700;
+}
+@media(max-width: 768px){
+    div.services_main_area {
+        margin-top: 250px;
+    }
+}
+@media(max-width: 425px){
+    div.services_main_area {
+        margin-top: 300px;
+    }
+}
+div.services_categories {
+    margin-top: 80px;
+}
+div.services_categories h5 {
+    margin-top: 30px;
+}
+@media(max-width: 768px){
+    div.services_categories_center {
+        margin: 0px auto;
+    }
+}
