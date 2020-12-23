@@ -20,6 +20,7 @@ This is a demo website. It was created for a medical team, which is dedicated to
 - React Calendar
 - Material-Ui Core
 - Material-Ui Icon
+- AOS
 - Firebase Authentication
 - React Firebase Hooks
 
