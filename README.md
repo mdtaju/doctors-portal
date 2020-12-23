@@ -18,11 +18,11 @@ This is a demo website. It was created for a medical team, which is dedicated to
 - React
 - React Router
 - React Calendar
+- Firebase Authentication
+- React Firebase Hooks
 - Material-Ui Core
 - Material-Ui Icon
 - AOS
-- Firebase Authentication
-- React Firebase Hooks
 
 #### Back-End
 - Node Js
